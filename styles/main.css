@@ -135,17 +135,79 @@ button{
 
 
 
-
+@media (max-width : 575px){
+    .logo{
+        width: 50px;
+        margin-left: 50px;
+    }
+    .bar{
+        margin-left: 96%;
+        margin-top: 30px;
+        color: white;
+    }
+    .search{
+        margin-left: -10px !important;
+        font-size: 14px !important;
+        margin-bottom: 5px;
+    }
+    .hero-text-container{
+        width: 100%;
+        top: 30%;
+    }
+    .hero-text-container h1{
+        font-size: 35px;
+        line-height: 60px;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width:767px) { 
-
- }
+    .logo{
+        width: 80px;
+        margin: 10px 0px 0px 50px;
+    }
+    .bar{
+        margin-left: 98%;
+        margin-top: 30px;
+        color: white;
+    }
+    .search{
+        font-size: 14px !important;
+    }
+    .hero-text-container{
+        width: 80%;
+        top: 35%;
+    }
+    .hero-text-container h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width:991px) { 
-
- }
+    .logo{
+        width: 80px;
+        margin-left: 50px;
+        margin-top: 8px;
+    }
+    .bar{
+        color: white;
+        margin-left: 98%;
+        margin-top: 32px;
+    }
+    .search{
+        font-size: 15px !important;
+    }
+    .hero-text-container{
+        width: 60%;
+        top: 35%;
+    }
+    .hero-text-container h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width:1199px) { 
@@ -158,6 +220,13 @@ button{
         font-size: 25px;
         margin-top: 26px;
         margin-left: 95%;
+    }
+    .hero-text-container{
+        top: 30%;
+    } 
+    .hero-text-container h1{
+        font-size: 30px;
+        line-height: 50px;
     }
  }
 
