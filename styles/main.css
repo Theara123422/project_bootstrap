@@ -122,6 +122,32 @@ button{
 .ads-container{
     height: 400px;
 }
+.trending-new{
+    height: 300px;
+}
+.card-box{
+    height: 100%;
+}
+.label{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(195, 194, 194);
+}
+.label:hover p{
+    color: red;
+    cursor: pointer;
+}
+.text-desc:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.card-image{
+    transition: 0.4s;
+}
+.card-container:hover .card-image{
+    transform: scale(1.04);
+    transition: 0.4s;
+}
 
 
 
