@@ -119,6 +119,9 @@ button{
     background-color: red;
     transition: 0.4s;
 }
+.ads-container{
+    height: 400px;
+}
 
 
 
@@ -176,7 +179,7 @@ button{
     }
     .hero-text-container{
         width: 80%;
-        top: 35%;
+        top: 30%;
     }
     .hero-text-container h1{
         font-size: 30px;
