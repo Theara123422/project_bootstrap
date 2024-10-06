@@ -129,13 +129,16 @@ button{
     height: 100%;
 }
 .label{
-    width: 120px;
+    width: fit-content;
     height: 30px;
     background-color: rgb(195, 194, 194);
 }
 .label:hover p{
     color: red;
     cursor: pointer;
+}
+.text-desc{
+    height: 100px;
 }
 .text-desc:hover{
     cursor: pointer;
